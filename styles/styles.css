@@ -609,7 +609,7 @@ body {
 
 .fifth-container {
 	height: 750px;
-	width: 1440px;
+	max-width: 1440px;
 	padding-top: 30px;
 	position: relative;
 	display: flex;
@@ -858,7 +858,7 @@ body {
 
 .fantasy-main {
 	position: relative;
-	background-image: url("/images/fantasy-main.png");
+	background: url(../images/fantasy-main.png) no-repeat center center;
 	background-size: cover;
 	display: flex;
 	flex-direction: row;
@@ -1917,7 +1917,7 @@ body {
 		position: relative;
 		top: 0;
 		bottom: 0;
-		width: 883px;
+		width: auto;
 		height: 445px;
 		z-index: 1;
 	}
